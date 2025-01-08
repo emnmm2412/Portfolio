@@ -1,0 +1,53 @@
+body{
+    background-color: #ccc;
+}
+header nav{
+    height: 35px;
+    background-color: #880808;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;  
+}
+header nav ul li{
+    float: left;
+    width: 170px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    border-left: 1px  solid  white;
+    border-right: 1px  solid  white;
+    line-height: 35px;
+    list-style: none;
+}
+.box{
+    width: 1050px;
+    margin: 0 auto;
+}
+section{
+    display:flex ;
+    gap: 50px;
+}
+section #A{
+    display: flex;
+    gap: 30px;
+}
+section #B{
+    display: flex;
+    gap: 30px;
+}
+h2{
+    color: #880808;
+}
+ section aside #C{
+    background-color: gainsboro;
+    height: 500px;
+    width: 250px;
+    padding: 30px;
+}
+footer{
+    color: #880808;
+    background-color: gainsboro;
+    height: 200px;
+}
